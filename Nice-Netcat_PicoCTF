@@ -48,5 +48,5 @@ for i in nums:
     flag += chr(i)
 print(flag)
 
--flag: picoCTF{g00d_k1tty!_n1c3_k1tty!_7c0821f5}
+-flag: no se como aplicar el python script al terminal
 
