@@ -1,5 +1,0 @@
--I got the file using wget https://mercury.picoctf.net/static/ec4dbd8898ade34e1d60d5b70c1b8c8c/static
--I read it using cat static
--I hard solved it because the flag was around there somewhere
--flag: https://mercury.picoctf.net/static/ec4dbd8898ade34e1d60d5b70c1b8c8c/static
--quiero saber como hacerlo bien
