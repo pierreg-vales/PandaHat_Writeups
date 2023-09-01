@@ -1,7 +1,0 @@
--I kinda hardcoded it
--Used wget to get the file (https://mercury.picoctf.net/static/b28b6021d6040b086c2226ebeb913bc2/warm)
--Used cat to read the file. (It was messy)
--Among the mess was the flag
--Flag:  picoCTF{b1scu1ts_4nd_gr4vy_d6969390}
-
-*I want to know how to properly solve it
