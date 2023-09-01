@@ -1,3 +1,0 @@
-Used a web converter:
-0x3D(hexadecimal) = 61(decimal)
-flag: picoCTF{61}
