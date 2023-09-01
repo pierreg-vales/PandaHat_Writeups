@@ -1,7 +1,0 @@
--Used a web converter to convert hexadecimal to decimal
--0x70(hexadecimal) = 112(decimal)
--Created a python scripts:
-  print(chr(112))
-
--It prints out "p"
-flag: picoCTF{p}
