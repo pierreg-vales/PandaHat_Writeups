@@ -1,0 +1,3 @@
+Used a web number to binary converter:
+42(decimal) = 101010(binary)
+flag: picoCTF{101010}

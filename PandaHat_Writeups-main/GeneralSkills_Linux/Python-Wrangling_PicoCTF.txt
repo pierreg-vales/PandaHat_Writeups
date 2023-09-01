@@ -1,0 +1,6 @@
+-Used wget to get all three links (python script, password and encrypted flag)
+-When you run the python script it shows ways in which you can decrypt a text file
+-Ran:
+    python3 ende.py -d flag.txt.en (-d is to decrypt de flag)
+-It asked for the password so I entered it and it printed the decrypted flag. 
+-Flag: picoCTF{4p0110_1n_7h3_h0us3_6008014f}
