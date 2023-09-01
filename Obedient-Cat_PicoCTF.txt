@@ -1,5 +1,0 @@
--Used -wget with the flag link (https://mercury.picoctf.net/static/2d24d50b4ebed90c704575627f1f57b2/flag)
--Then verified it was in my directory using -ls
--Found the flag using the command:
-    cat flag
--Flag: picoCTF{s4n1ty_v3r1f13d_f28ac910}
