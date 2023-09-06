@@ -1,0 +1,8 @@
+-First the documentation for net cat
+-Tried to connect using:
+  nc -p 64287 jupiter.challenges.picoctf.org 
+-It did not work so i searched for examples on how to connec to a server using the port
+-Applied:
+  nc jupiter.challenges.picoctf.org 64287
+-Flag: 
+  jupiter.challenges.picoctf.org 
