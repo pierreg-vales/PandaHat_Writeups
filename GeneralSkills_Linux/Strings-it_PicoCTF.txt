@@ -1,0 +1,10 @@
+-Read the linux command 'strings' documentation
+-Used it as:
+  strings strings (the file's name is 'strings')
+-It printed a bunch of information that was too hard to read
+-Used a python script to try to get the flag:
+    with open('/home/pierrevales-picoctf/strings', 'r') as file:
+      for line in file:
+        if line[0:5]=="pico":
+          print(line)
+-It cant decode the string
