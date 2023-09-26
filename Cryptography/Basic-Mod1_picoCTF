@@ -1,0 +1,31 @@
+-Created a python script where i read the text file and converted it to a list
+-With that list i got a new list with the number mod 37
+-With that new list i used if statements to convert them to their maps. (0-25:a-z, 26-35:0-9, 36:_)
+-I concatenated the converted elements into a string and got the flag
+-flag: picoCTF{r0und_n_r0und_79c18fb3}
+
+python script:
+
+with open("message.txt",'r') as file:
+  for line in file:
+    list = line.strip().split()
+
+result = []
+for x in list:
+  result.append(int(x)%37)
+
+abc=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+newResult = []
+for x in result:
+  if x <= 25:
+    newResult.append(abc[x])
+  elif x >=26 and x <= 35:
+    newResult.append(str(-(26-x)))
+  elif x == 36:
+    newResult.append("_")
+
+string = ""
+for x in newResult:
+  string+=x
+
+print("picoCTF{"+string+"}")
